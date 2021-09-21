@@ -1,19 +1,19 @@
 #include <Arduino.h>
 
-#define RTS_PIN 2
-#define RXD_PIN 3
-#define TXD_PIN 4
-#define CTS_PIN 5
-#define BOOT_PIN 6
-#define EN_PIN 7
-#define SWITCH_PIN 8
+// #define RTS_PIN 2
+// #define RXD_PIN 3
+#define TXD_PIN 6
+// #define CTS_PIN 5
+#define BOOT_PIN 27
+#define EN_PIN 26
+#define SWITCH_PIN 4
 
 void setup()
 {
-    pinMode(RTS_PIN, INPUT_PULLUP);
-    pinMode(RXD_PIN, INPUT_PULLUP);
+    // pinMode(RTS_PIN, INPUT_PULLUP);
+    // pinMode(RXD_PIN, INPUT_PULLUP);
     pinMode(TXD_PIN, INPUT_PULLUP);
-    pinMode(CTS_PIN, INPUT_PULLUP);
+    // pinMode(CTS_PIN, INPUT_PULLUP);
     pinMode(SWITCH_PIN, INPUT_PULLUP);
 
     pinMode(EN_PIN, OUTPUT);
