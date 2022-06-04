@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name sc0915)(type Legacy)(uri /home/nnyn/ghq/github.com/74th/esp32-writer/kicad/symbol/SC0915.lib)(options "")(descr ""))
-  (lib (name esp32-writer)(type Legacy)(uri ${KIPRJMOD}/symbol/esp32-writer.lib)(options "")(descr ""))
-)
